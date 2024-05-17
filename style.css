@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.cabecalho {
+    background-color: #260e6b; 
+    height: 103px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+}
+
+.lista-menu{
+    display: flex;
+    gap: 40px;
+    margin-right: 20px;
+    
+    }
+
+li{
+    list-style: none
+    }
+
+.lista-menu li > a{
+    color: #e0400f;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.perfil{
+    background-color: #e6cbb2;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    font-weight: 500px;
+   }
+
+img{
+    width: 230px;
+    height: 230px;
+    margin-top: 35px;
+    margin-bottom: 26px;
+}
+
+h1{
+    color: #e0400f;
+    font-size: 36px;
+    margin-bottom: 2px;
+}
+
+.profissao{
+    color: #260e6b;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
+}
+.ajuste{
+    margin-top: 76px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+.descricao{
+    width: 594px;
+    height: 194px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.description{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px; 
+    font-size: 20px;
+    color: #260e6b;
+}
+
+.container{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px;
+}
+
+.container-formacao{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6cbb2;
+    max-width: 100%;
+    padding: 30px 0 30px 0;
+}
+
+.container-formacao article{
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.formacao{
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.titulo-secao{
+    color:#e0400f;
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+
+.titulo-formacao{
+    padding-left: 32px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    color: #260e6b;
+}
+
+.link-formacao{
+    color: #e0400f;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 32px;
+}
+
+.descricao-formacao{
+    padding-left: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.projetos{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.contato{
+    color:#260e6b;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 32px;
+    background-color: #e0400f;
+}
+
+.form-container{
+    padding-top: 30px;
+    max-width: 572px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input, .form-container textarea{
+    height: 50px;
+}
+
+
+#botao{
+    color: #ced7d8;
+    font-size: 19px;
+    border:solid 3px; 
+    color: #601eb1;
+    padding: 20px;    
+}
+
+.espaco{
+    width: 20px;
+    height: 20px;
+}
+
+.rodape{
+    background-color: #260e6b; 
+    height: 103px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    top: -246px;
+}
+
+.botao-linkedin{
+    color:#e0400f;
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.botao-insta{
+    color:#e0400f;
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.botao-git{
+    color:#e0400f;
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+ #insta{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color:#e0400f;
+
+ }
+
+ #linke{
+    color:#e0400f;
+    margin-left: 10px;
+
+ }
+
+ #git{
+    color:#e0400f;
+    margin-left: 10px;
+ }
